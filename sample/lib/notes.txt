@@ -1,2 +1,5 @@
 Cached Network image
 Lazy Loading
+portrait lock
+togglebale in radio
+keyboard listener.
