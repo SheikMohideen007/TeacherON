@@ -4,6 +4,8 @@ import 'package:sample/home.dart';
 import 'package:sample/sample2.dart';
 import 'package:sample/sample3.dart';
 import 'package:sample/sample4.dart';
+import 'package:sample/sample7.dart';
+import 'package:sample/sample8.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
           textTheme: GoogleFonts.poppinsTextTheme()),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Sample8(),
       routes: {
         '/home': (context) => MyHomePage(title: 'Flutter Demo Home Page'),
         '/sample2': (context) => Sample2(),

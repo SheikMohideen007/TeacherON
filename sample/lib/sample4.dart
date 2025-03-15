@@ -44,7 +44,6 @@ class _Sample4State extends State<Sample4> {
   Slider
   Imagepicker
   showmodalbottom sheet
-
   */
 
   getFromGallery() async {
